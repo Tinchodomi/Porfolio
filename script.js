@@ -39,3 +39,20 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
+
+
+const textToDisplay = "Hola! soy Martín";
+
+
+        function displayText(index) {
+            if (index <= textToDisplay.length) {
+                document.getElementById("dynamicText").innerHTML = textToDisplay.substring(0, index);
+                setTimeout(function () {
+                    displayText(index + 1);
+                }, 200);
+            }
+        }
+        window.onload = function () {
+            displayText(0);
+        };
+
