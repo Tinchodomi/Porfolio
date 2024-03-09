@@ -31,10 +31,12 @@ html{
     font-size: 36px;
     color: #d4ff00;
     text-decoration: none;
+    
 }
 .contenedor-header header ul{
     display: flex;
     list-style: none;
+    font-size: 17px;
 }
 .contenedor-header header nav ul li a{
     text-align: none;
