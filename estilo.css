@@ -144,10 +144,15 @@ html{
     line-height: 22px;
     margin-bottom: 50px;
     text-align: justify;
+    padding-left: 98px;
+    padding-right: 98px;
+    
 }
 .sobremi .contenido-seccion p span{
     color:#d4ff00;
     font-weight: bold;
+    
+   
 }
 .sobremi .fila{
     display: flex;
@@ -177,6 +182,8 @@ html{
 }
 .sobremi .fila .col ul li{
     margin: 12px 0;
+    padding-left: 98px;
+    padding-right: 98px;
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
