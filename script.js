@@ -49,7 +49,7 @@ const textToDisplay = "Hola! soy Martín";
                 document.getElementById("dynamicText").innerHTML = textToDisplay.substring(0, index);
                 setTimeout(function () {
                     displayText(index + 1);
-                }, 200);
+                }, 150);
             }
         }
         window.onload = function () {
