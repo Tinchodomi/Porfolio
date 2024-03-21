@@ -448,6 +448,12 @@ html{
 
 }
 
+.curriculum .fila .col a{
+    font-size: 20px;
+    font-family: 'Righteous';
+    color: #d4ff00;
+}
+
 .linea{
   margin-left: 50px;
 }
